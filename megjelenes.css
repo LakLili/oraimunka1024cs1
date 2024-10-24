@@ -1,0 +1,106 @@
+#kezdocim{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: green;
+}
+
+p{
+    color: black;
+}
+
+#ananasz{
+    float: left;
+    height: auto;
+    width: 100px;
+}
+
+table{
+    background-color: white;
+    clear: both;
+}
+
+table, td{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+#hatter{
+    background-image: url("smiley2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+ul>li{
+    list-style-image: url("smiley2.png");
+    list-style-position: inside;
+}
+
+ol>li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+div>p{
+    /*szöveg behúzása*/
+    text-indent: 50px;
+    /*sorkizárt*/
+    text-align: justify;
+}
+
+#szoveg{
+    background-color: white;
+    border: gray solid 1px;
+    /*margó beállítás 1. megoldás*/
+    margin-left: 50px;
+    margin-right: 50px;
+    /*2. megoldás*/
+    margin: auto 50px;
+    /*keret belső része 1.megoldás*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*2. megoldás*/
+    padding: 30px auto;
+    /*nagybetűsít mindent*/
+    text-transform: uppercase;
+}
+
+#nagy{
+    font-variant: small-caps;
+    font-size: 130%;
+}
+
+.alahuzott{
+    /*aláhúzott*/
+    text-decoration: underline;
+}
+
+.vastag{
+    /*vastagon szedett*/
+    font-weight: bold;
+}
+
+.dolt{
+    /*dőlt betű*/
+    font-style: italic;
+    font-style: oblique;
+}
+
+#parizs{
+    /*magasság*/
+    height:300px;
+    /*szélesség*/
+    width: 300px;
+    /*lekerekítés*/
+    border-radius: 50%;
+    /*középre rendezés*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
